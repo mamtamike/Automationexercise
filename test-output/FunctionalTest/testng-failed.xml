@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FunctionalTest]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="FunctionalTestScript.logout">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="logoutTest"/>
+        </methods>
+      </class> <!-- FunctionalTestScript.logout -->
+      <class name="FunctionalTestScript.login">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- FunctionalTestScript.login -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [FunctionalTest] -->
