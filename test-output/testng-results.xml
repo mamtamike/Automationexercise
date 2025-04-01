@@ -1,70 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+<testng-results ignored="0" total="42" passed="35" failed="7" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-31T11:23:38 IST" name="Default suite" finished-at="2025-03-31T11:23:54 IST" duration-ms="16000">
+  <suite started-at="2025-04-01T16:02:05 IST" name="UI Testing" finished-at="2025-04-01T16:11:40 IST" duration-ms="575240">
     <groups>
     </groups>
-    <test started-at="2025-03-31T11:23:38 IST" name="Default test" finished-at="2025-03-31T11:23:54 IST" duration-ms="16000">
-      <class name="FunctionalTestScript.CheckoutPage">
-        <test-method is-config="true" signature="setup()[pri:0, instance:FunctionalTestScript.CheckoutPage@35841320]" started-at="2025-03-31T11:23:23 IST" name="setup" finished-at="2025-03-31T11:23:38 IST" duration-ms="14485" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="navigation()[pri:1, instance:FunctionalTestScript.CheckoutPage@35841320]" started-at="2025-03-31T11:23:38 IST" name="navigation" finished-at="2025-03-31T11:23:41 IST" duration-ms="3370" status="PASS">
+    <test started-at="2025-04-01T16:02:05 IST" name="Test" finished-at="2025-04-01T16:11:40 IST" duration-ms="575240">
+      <class name="FunctionalTestScript.ProductDetailPage">
+        <test-method signature="navigation()[pri:0, instance:FunctionalTestScript.ProductDetailPage@5f8e8a9d]" started-at="2025-04-01T16:10:08 IST" name="navigation" finished-at="2025-04-01T16:10:10 IST" duration-ms="1575" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigation -->
-        <test-method signature="verifyAddToCart()[pri:2, instance:FunctionalTestScript.CheckoutPage@35841320]" started-at="2025-03-31T11:23:41 IST" name="verifyAddToCart" finished-at="2025-03-31T11:23:45 IST" duration-ms="3392" status="PASS">
+        <test-method signature="verifyAddToCart()[pri:0, instance:FunctionalTestScript.ProductDetailPage@5f8e8a9d]" started-at="2025-04-01T16:10:10 IST" name="verifyAddToCart" finished-at="2025-04-01T16:10:12 IST" duration-ms="2752" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAddToCart -->
-        <test-method signature="navigateToCheckOutPage()[pri:3, instance:FunctionalTestScript.CheckoutPage@35841320]" started-at="2025-03-31T11:23:45 IST" name="navigateToCheckOutPage" finished-at="2025-03-31T11:23:53 IST" duration-ms="8465" status="PASS">
+        <test-method signature="verifyAvailability()[pri:0, instance:FunctionalTestScript.ProductDetailPage@5f8e8a9d]" started-at="2025-04-01T16:10:12 IST" name="verifyAvailability" finished-at="2025-04-01T16:10:12 IST" duration-ms="52" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navigateToCheckOutPage -->
-        <test-method signature="VerifyAddressDetails()[pri:4, instance:FunctionalTestScript.CheckoutPage@35841320]" started-at="2025-03-31T11:23:53 IST" name="VerifyAddressDetails" finished-at="2025-03-31T11:23:54 IST" duration-ms="606" status="PASS">
+        </test-method> <!-- verifyAvailability -->
+        <test-method signature="verifyBrand()[pri:0, instance:FunctionalTestScript.ProductDetailPage@5f8e8a9d]" started-at="2025-04-01T16:10:12 IST" name="verifyBrand" finished-at="2025-04-01T16:10:13 IST" duration-ms="34" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyAddressDetails -->
-        <test-method signature="reviewOrder()[pri:5, instance:FunctionalTestScript.CheckoutPage@35841320]" started-at="2025-03-31T11:23:54 IST" name="reviewOrder" finished-at="2025-03-31T11:23:54 IST" duration-ms="43" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        </test-method> <!-- verifyBrand -->
+        <test-method signature="verifyCondition()[pri:0, instance:FunctionalTestScript.ProductDetailPage@5f8e8a9d]" started-at="2025-04-01T16:10:13 IST" name="verifyCondition" finished-at="2025-04-01T16:10:13 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCondition -->
+        <test-method signature="verifyProductCategory()[pri:0, instance:FunctionalTestScript.ProductDetailPage@5f8e8a9d]" started-at="2025-04-01T16:10:13 IST" name="verifyProductCategory" finished-at="2025-04-01T16:10:13 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductCategory -->
+        <test-method signature="verifyProductName()[pri:0, instance:FunctionalTestScript.ProductDetailPage@5f8e8a9d]" started-at="2025-04-01T16:10:13 IST" name="verifyProductName" finished-at="2025-04-01T16:10:13 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductName -->
+        <test-method signature="verifyProductPrice()[pri:0, instance:FunctionalTestScript.ProductDetailPage@5f8e8a9d]" started-at="2025-04-01T16:10:13 IST" name="verifyProductPrice" finished-at="2025-04-01T16:10:13 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductPrice -->
+        <test-method signature="verifyQuantity()[pri:0, instance:FunctionalTestScript.ProductDetailPage@5f8e8a9d]" started-at="2025-04-01T16:10:13 IST" name="verifyQuantity" finished-at="2025-04-01T16:10:13 IST" duration-ms="482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyQuantity -->
+      </class> <!-- FunctionalTestScript.ProductDetailPage -->
+      <class name="FunctionalTestScript.ContactUs">
+        <test-method signature="feedback()[pri:0, instance:FunctionalTestScript.ContactUs@3cce5371]" started-at="2025-04-01T16:10:46 IST" name="feedback" finished-at="2025-04-01T16:11:06 IST" duration-ms="20182" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="cart_info"]/table/tbody/tr[2]/td[4]/p"}
-  (Session info: chrome=134.0.6998.178)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //*[text()='feedback@automationexercise.com'] (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9763f773814226f7e50c97cdb07e1cc9, findElement {using=xpath, value=//*[@id="cart_info"]/table/tbody/tr[2]/td[4]/p}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61083}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61083/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9763f773814226f7e50c97cdb07e1cc9]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54335}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54335/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6df81dbefa8be90745b904414912d0b2]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="cart_info"]/table/tbody/tr[2]/td[4]/p"}
-  (Session info: chrome=134.0.6998.178)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[text()='feedback@automationexercise.com'] (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9763f773814226f7e50c97cdb07e1cc9, findElement {using=xpath, value=//*[@id="cart_info"]/table/tbody/tr[2]/td[4]/p}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61083}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61083/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9763f773814226f7e50c97cdb07e1cc9
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at FunctionalTestScript.CheckoutPage.reviewOrder(CheckoutPage.java:68)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54335}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54335/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6df81dbefa8be90745b904414912d0b2
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at FunctionalTestScript.ContactUs.feedback(ContactUs.java:50)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -93,15 +93,495 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feedback -->
+        <test-method signature="verifyGetInTouchForm()[pri:0, instance:FunctionalTestScript.ContactUs@3cce5371]" started-at="2025-04-01T16:11:06 IST" name="verifyGetInTouchForm" finished-at="2025-04-01T16:11:36 IST" duration-ms="30119" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //input[@type='text' and @name='name'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54335}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54335/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6df81dbefa8be90745b904414912d0b2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@type='text' and @name='name'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54335}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54335/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6df81dbefa8be90745b904414912d0b2
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at FunctionalTestScript.ContactUs.verifyGetInTouchForm(ContactUs.java:25)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetInTouchForm -->
+        <test-method signature="verifyNavigateToContactPage()[pri:0, instance:FunctionalTestScript.ContactUs@3cce5371]" started-at="2025-04-01T16:11:36 IST" name="verifyNavigateToContactPage" finished-at="2025-04-01T16:11:40 IST" duration-ms="3642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigateToContactPage -->
+      </class> <!-- FunctionalTestScript.ContactUs -->
+      <class name="FunctionalTestScript.HomePageTest">
+        <test-method signature="verifyHomePageTitle()[pri:1, instance:FunctionalTestScript.HomePageTest@6f204a1a]" started-at="2025-04-01T16:02:16 IST" name="verifyHomePageTitle" finished-at="2025-04-01T16:02:16 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method signature="verifyLogoPresence()[pri:2, instance:FunctionalTestScript.HomePageTest@6f204a1a]" started-at="2025-04-01T16:02:16 IST" name="verifyLogoPresence" finished-at="2025-04-01T16:02:17 IST" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoPresence -->
+        <test-method signature="verifyNavigationBar()[pri:3, instance:FunctionalTestScript.HomePageTest@6f204a1a]" started-at="2025-04-01T16:02:17 IST" name="verifyNavigationBar" finished-at="2025-04-01T16:02:17 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationBar -->
+        <test-method signature="verifyLoginButton()[pri:4, instance:FunctionalTestScript.HomePageTest@6f204a1a]" started-at="2025-04-01T16:02:17 IST" name="verifyLoginButton" finished-at="2025-04-01T16:02:17 IST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginButton -->
+        <test-method signature="verifyProductButton()[pri:5, instance:FunctionalTestScript.HomePageTest@6f204a1a]" started-at="2025-04-01T16:02:17 IST" name="verifyProductButton" finished-at="2025-04-01T16:02:17 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductButton -->
+        <test-method signature="verifyCartButton()[pri:6, instance:FunctionalTestScript.HomePageTest@6f204a1a]" started-at="2025-04-01T16:02:17 IST" name="verifyCartButton" finished-at="2025-04-01T16:02:17 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartButton -->
+        <test-method signature="verifyContactusButton()[pri:7, instance:FunctionalTestScript.HomePageTest@6f204a1a]" started-at="2025-04-01T16:02:17 IST" name="verifyContactusButton" finished-at="2025-04-01T16:02:17 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactusButton -->
+        <test-method signature="verifySubscription()[pri:8, instance:FunctionalTestScript.HomePageTest@6f204a1a]" started-at="2025-04-01T16:02:17 IST" name="verifySubscription" finished-at="2025-04-01T16:02:25 IST" duration-ms="7802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubscription -->
+        <test-method signature="verifyScrolldownScrollup()[pri:9, instance:FunctionalTestScript.HomePageTest@6f204a1a]" started-at="2025-04-01T16:02:25 IST" name="verifyScrolldownScrollup" finished-at="2025-04-01T16:04:54 IST" duration-ms="148755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyScrolldownScrollup -->
+        <test-method signature="verifyBannerScroll()[pri:10, instance:FunctionalTestScript.HomePageTest@6f204a1a]" started-at="2025-04-01T16:04:54 IST" name="verifyBannerScroll" finished-at="2025-04-01T16:04:54 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBannerScroll -->
+        <test-method signature="verifyScrolldownToElement()[pri:11, instance:FunctionalTestScript.HomePageTest@6f204a1a]" started-at="2025-04-01T16:04:54 IST" name="verifyScrolldownToElement" finished-at="2025-04-01T16:04:55 IST" duration-ms="543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyScrolldownToElement -->
+      </class> <!-- FunctionalTestScript.HomePageTest -->
+      <class name="FunctionalTestScript.CheckoutPage">
+        <test-method signature="navigation()[pri:1, instance:FunctionalTestScript.CheckoutPage@3ad83a66]" started-at="2025-04-01T16:10:40 IST" name="navigation" finished-at="2025-04-01T16:10:43 IST" duration-ms="2513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigation -->
+        <test-method signature="verifyAddToCart()[pri:2, instance:FunctionalTestScript.CheckoutPage@3ad83a66]" started-at="2025-04-01T16:10:43 IST" name="verifyAddToCart" finished-at="2025-04-01T16:10:45 IST" duration-ms="1814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCart -->
+        <test-method signature="navigateToCheckOutPage()[pri:3, instance:FunctionalTestScript.CheckoutPage@3ad83a66]" started-at="2025-04-01T16:10:45 IST" name="navigateToCheckOutPage" finished-at="2025-04-01T16:10:46 IST" duration-ms="1390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCheckOutPage -->
+        <test-method signature="VerifyAddressDetails()[pri:4, instance:FunctionalTestScript.CheckoutPage@3ad83a66]" started-at="2025-04-01T16:10:46 IST" name="VerifyAddressDetails" finished-at="2025-04-01T16:10:46 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddressDetails -->
+        <test-method signature="reviewOrder()[pri:5, instance:FunctionalTestScript.CheckoutPage@3ad83a66]" started-at="2025-04-01T16:10:46 IST" name="reviewOrder" finished-at="2025-04-01T16:10:46 IST" duration-ms="61" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Rs. 1000] but found [Rs. 2500]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Rs. 1000] but found [Rs. 2500]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at FunctionalTestScript.CheckoutPage.reviewOrder(CheckoutPage.java:69)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reviewOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:FunctionalTestScript.CheckoutPage@35841320]" started-at="2025-03-31T11:23:54 IST" name="tearDown" finished-at="2025-03-31T11:23:55 IST" duration-ms="1146" status="PASS">
+      </class> <!-- FunctionalTestScript.CheckoutPage -->
+      <class name="FunctionalTestScript.CartPage">
+        <test-method signature="navigation()[pri:1, instance:FunctionalTestScript.CartPage@5745ca0e]" started-at="2025-04-01T16:10:13 IST" name="navigation" finished-at="2025-04-01T16:10:15 IST" duration-ms="1912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigation -->
+        <test-method signature="verifyAddToCart()[pri:2, instance:FunctionalTestScript.CartPage@5745ca0e]" started-at="2025-04-01T16:10:15 IST" name="verifyAddToCart" finished-at="2025-04-01T16:10:17 IST" duration-ms="2316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCart -->
+        <test-method signature="navigateCartPage()[pri:3, instance:FunctionalTestScript.CartPage@5745ca0e]" started-at="2025-04-01T16:10:17 IST" name="navigateCartPage" finished-at="2025-04-01T16:10:20 IST" duration-ms="2346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateCartPage -->
+        <test-method signature="testPageTitle()[pri:4, instance:FunctionalTestScript.CartPage@5745ca0e]" started-at="2025-04-01T16:10:20 IST" name="testPageTitle" finished-at="2025-04-01T16:10:20 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageTitle -->
+        <test-method signature="testHomeLinkPresence()[pri:5, instance:FunctionalTestScript.CartPage@5745ca0e]" started-at="2025-04-01T16:10:20 IST" name="testHomeLinkPresence" finished-at="2025-04-01T16:10:20 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomeLinkPresence -->
+        <test-method signature="testProceedToCheckoutButton()[pri:6, instance:FunctionalTestScript.CartPage@5745ca0e]" started-at="2025-04-01T16:10:20 IST" name="testProceedToCheckoutButton" finished-at="2025-04-01T16:10:40 IST" duration-ms="20199" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: a[class='btn btn-default check_out'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54335}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54335/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6df81dbefa8be90745b904414912d0b2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: a[class='btn btn-default check_out'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54335}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54335/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6df81dbefa8be90745b904414912d0b2
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at FunctionalTestScript.CartPage.testProceedToCheckoutButton(CartPage.java:75)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProceedToCheckoutButton -->
+        <test-method signature="testCartItemTable()[pri:7, instance:FunctionalTestScript.CartPage@5745ca0e]" started-at="2025-04-01T16:10:40 IST" name="testCartItemTable" finished-at="2025-04-01T16:10:40 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCartItemTable -->
+      </class> <!-- FunctionalTestScript.CartPage -->
+      <class name="FunctionalTestScript.Loginlogout">
+        <test-method is-config="true" signature="setup()[pri:0, instance:FunctionalTestScript.Loginlogout@eadd4fb]" started-at="2025-04-01T16:01:52 IST" name="setup" finished-at="2025-04-01T16:02:05 IST" duration-ms="13359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:1, instance:FunctionalTestScript.Loginlogout@eadd4fb]" started-at="2025-04-01T16:02:05 IST" name="loginTest" finished-at="2025-04-01T16:02:10 IST" duration-ms="4969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="logoutTest()[pri:2, instance:FunctionalTestScript.Loginlogout@eadd4fb]" started-at="2025-04-01T16:02:10 IST" name="logoutTest" finished-at="2025-04-01T16:02:16 IST" depends-on-methods="FunctionalTestScript.Loginlogout.loginTest" duration-ms="6291" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found
+  (Session info: chrome=134.0.6998.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6df81dbefa8be90745b904414912d0b2, getElementText {id=f.10ABE2A85ED886E8255EF4A2BED4F315.d.377142711A3ABDB16C5A5C626354F55E.e.59}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54335}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54335/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6df81dbefa8be90745b904414912d0b2)] -> xpath: //*[@id="header"]/div/div/div/div[2]/div/ul/li[4]/a]
+Session ID: 6df81dbefa8be90745b904414912d0b2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=134.0.6998.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6df81dbefa8be90745b904414912d0b2, getElementText {id=f.10ABE2A85ED886E8255EF4A2BED4F315.d.377142711A3ABDB16C5A5C626354F55E.e.59}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54335}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54335/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6df81dbefa8be90745b904414912d0b2)] -> xpath: //*[@id="header"]/div/div/div/div[2]/div/ul/li[4]/a]
+Session ID: 6df81dbefa8be90745b904414912d0b2
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:191)
+at FunctionalTestScript.Loginlogout.logoutTest(Loginlogout.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FunctionalTestScript.Loginlogout@eadd4fb]" started-at="2025-04-01T16:11:40 IST" name="tearDown" finished-at="2025-04-01T16:11:41 IST" duration-ms="468" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- FunctionalTestScript.CheckoutPage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- FunctionalTestScript.Loginlogout -->
+      <class name="FunctionalTestScript.ProductPageTest">
+        <test-method is-config="true" signature="verifyProductButtonNavigation()[pri:0, instance:FunctionalTestScript.ProductPageTest@2de56eb2]" started-at="2025-04-01T16:04:55 IST" name="verifyProductButtonNavigation" finished-at="2025-04-01T16:06:54 IST" duration-ms="119662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductButtonNavigation -->
+        <test-method signature="verifySearchProduct()[pri:2, instance:FunctionalTestScript.ProductPageTest@2de56eb2]" started-at="2025-04-01T16:06:54 IST" name="verifySearchProduct" finished-at="2025-04-01T16:06:59 IST" duration-ms="4543" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found
+  (Session info: chrome=134.0.6998.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6df81dbefa8be90745b904414912d0b2, clearElement {id=f.10ABE2A85ED886E8255EF4A2BED4F315.d.209E7445E68EF370C7B1E81576AA42EF.e.135}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54335}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54335/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6df81dbefa8be90745b904414912d0b2)] -> xpath: //*[@id="search_product"]]
+Session ID: 6df81dbefa8be90745b904414912d0b2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=134.0.6998.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6df81dbefa8be90745b904414912d0b2, clearElement {id=f.10ABE2A85ED886E8255EF4A2BED4F315.d.209E7445E68EF370C7B1E81576AA42EF.e.135}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54335}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54335/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6df81dbefa8be90745b904414912d0b2)] -> xpath: //*[@id="search_product"]]
+Session ID: 6df81dbefa8be90745b904414912d0b2
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:129)
+at FunctionalTestScript.ProductPageTest.verifySearchProduct(ProductPageTest.java:41)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchProduct -->
+        <test-method is-config="true" signature="verifyProductButtonNavigation()[pri:0, instance:FunctionalTestScript.ProductPageTest@2de56eb2]" started-at="2025-04-01T16:06:59 IST" name="verifyProductButtonNavigation" finished-at="2025-04-01T16:08:55 IST" duration-ms="116675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductButtonNavigation -->
+        <test-method signature="verifySearchProductWithEnterKey()[pri:3, instance:FunctionalTestScript.ProductPageTest@2de56eb2]" started-at="2025-04-01T16:08:55 IST" name="verifySearchProductWithEnterKey" finished-at="2025-04-01T16:08:58 IST" duration-ms="2481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchProductWithEnterKey -->
+        <test-method is-config="true" signature="verifyProductButtonNavigation()[pri:0, instance:FunctionalTestScript.ProductPageTest@2de56eb2]" started-at="2025-04-01T16:08:58 IST" name="verifyProductButtonNavigation" finished-at="2025-04-01T16:09:02 IST" duration-ms="3588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductButtonNavigation -->
+        <test-method signature="verifyAddToCart()[pri:4, instance:FunctionalTestScript.ProductPageTest@2de56eb2]" started-at="2025-04-01T16:09:02 IST" name="verifyAddToCart" finished-at="2025-04-01T16:09:22 IST" duration-ms="20394" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/section[2]/div/div/div[2]/div/div[2]/div/div[1]/div[2]/div/a (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54335}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54335/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6df81dbefa8be90745b904414912d0b2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/section[2]/div/div/div[2]/div/div[2]/div/div[1]/div[2]/div/a (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54335}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54335/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6df81dbefa8be90745b904414912d0b2
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at FunctionalTestScript.ProductPageTest.verifyAddToCart(ProductPageTest.java:57)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCart -->
+        <test-method is-config="true" signature="verifyProductButtonNavigation()[pri:0, instance:FunctionalTestScript.ProductPageTest@2de56eb2]" started-at="2025-04-01T16:09:22 IST" name="verifyProductButtonNavigation" finished-at="2025-04-01T16:09:47 IST" duration-ms="24580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductButtonNavigation -->
+        <test-method signature="verifyProductCategory()[pri:5, instance:FunctionalTestScript.ProductPageTest@2de56eb2]" started-at="2025-04-01T16:09:47 IST" name="verifyProductCategory" finished-at="2025-04-01T16:10:04 IST" duration-ms="17128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductCategory -->
+        <test-method is-config="true" signature="verifyProductButtonNavigation()[pri:0, instance:FunctionalTestScript.ProductPageTest@2de56eb2]" started-at="2025-04-01T16:10:04 IST" name="verifyProductButtonNavigation" finished-at="2025-04-01T16:10:06 IST" duration-ms="2084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductButtonNavigation -->
+        <test-method signature="verifyViewProduct()[pri:6, instance:FunctionalTestScript.ProductPageTest@2de56eb2]" started-at="2025-04-01T16:10:06 IST" name="verifyViewProduct" finished-at="2025-04-01T16:10:08 IST" duration-ms="2308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyViewProduct -->
+      </class> <!-- FunctionalTestScript.ProductPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- UI Testing -->
 </testng-results>
