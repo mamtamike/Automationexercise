@@ -1,4 +1,4 @@
-package utilities;
+package com.automationexercise.util;
 
 import java.io.File;
 import java.io.FileInputStream;

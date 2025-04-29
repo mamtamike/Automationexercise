@@ -1,4 +1,4 @@
-package FunctionalTestScript;
+package com.functional.test;
 
 
 	import java.time.Duration;
@@ -14,7 +14,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 	import org.testng.annotations.Test;
 
-import utilities.BaseTest;
+import com.automationexercise.util.BaseTest;
 
 	public class CartPage extends BaseTest {
 		@Test(priority=1)

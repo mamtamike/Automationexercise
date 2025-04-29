@@ -1,0 +1,2 @@
+C:\eclipse_workspace\TestAutomationExercise
+mvn test

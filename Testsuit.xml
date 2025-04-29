@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="UI Testing">
+<suite name="Suite">
 	<test name="Test">
 		<classes>
-			<class name="FunctionalTestScript.Loginlogout" />
-			<class name="FunctionalTestScript.HomePageTest" />
-			<class name="FunctionalTestScript.ProductPageTest" />
-			<class name="FunctionalTestScript.ProductDetailPage" />
-			<class name="FunctionalTestScript.CartPage" />
-			<class name="FunctionalTestScript.CheckoutPage" />
-			<class name="FunctionalTestScript.ContactUs" />
+			<class name="com.functional.test.LoginLogout" />
+			<class name="com.functional.test.HomePage" />
+			<class name="com.functional.test.ProductListPage" />
+			<class name="com.functional.test.ProductDetailPage" />
+			<class name="com.functional.test.CartPage" />
+			<class name="com.functional.test.CheckoutPage" />
+			<class name="com.functional.test.ContactUs" />
 
-		</classes>
+
+				</classes>
 	</test> <!--
 	Test -->
 </suite> <!--

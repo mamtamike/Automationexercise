@@ -1,4 +1,4 @@
-package utilities;
+package com.automationexercise.util;
 
 import java.io.FileReader;
 import java.io.IOException;

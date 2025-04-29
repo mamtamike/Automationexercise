@@ -1,12 +1,12 @@
-package FunctionalTestScript;
+package com.functional.test;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-import utilities.BaseTest;
+import com.automationexercise.util.BaseTest;
 
-public class Loginlogout extends BaseTest {
+public class LoginLogout extends BaseTest {
 	
 	
 	@Test(priority=1)

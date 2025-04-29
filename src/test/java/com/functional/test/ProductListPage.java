@@ -1,4 +1,4 @@
-package FunctionalTestScript;
+package com.functional.test;
 
 import java.time.Duration;
 import java.util.List;
@@ -13,9 +13,9 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import utilities.BaseTest;
+import com.automationexercise.util.BaseTest;
 
-public class ProductPageTest extends BaseTest {
+public class ProductListPage extends BaseTest {
 	@BeforeMethod
 	public void verifyProductButtonNavigation() {
 		driver.findElement(By.xpath(lc.getProperty("product_button"))).click();

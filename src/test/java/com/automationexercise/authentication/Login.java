@@ -1,11 +1,11 @@
-package Authentication;
+package com.automationexercise.authentication;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-import utilities.BaseTest;
-import utilities.ReadXlsData;
+import com.automationexercise.util.BaseTest;
+import com.automationexercise.util.ReadXlsData;
 
 public class Login extends BaseTest {
 	

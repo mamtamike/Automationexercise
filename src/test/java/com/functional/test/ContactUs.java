@@ -1,4 +1,4 @@
-package FunctionalTestScript;
+package com.functional.test;
 
 import java.io.FileReader;
 import java.io.IOException;
@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
-import utilities.BaseTest;
+import com.automationexercise.util.BaseTest;
 
 public class ContactUs extends BaseTest {
 	@Test

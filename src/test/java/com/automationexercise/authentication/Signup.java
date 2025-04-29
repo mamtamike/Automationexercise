@@ -1,4 +1,4 @@
-package Authentication;
+package com.automationexercise.authentication;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
-import utilities.BaseTest;
-import utilities.ReadXlsData;
+import com.automationexercise.util.BaseTest;
+import com.automationexercise.util.ReadXlsData;
 
 public class Signup extends BaseTest {
 	@Test(dataProviderClass = ReadXlsData.class, dataProvider = "testdata")
