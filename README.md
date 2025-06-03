@@ -18,5 +18,5 @@ Tests cover functionality including:
 - Contact Form Submission
 - Page Navigation and UI Verification
 
-## 📁 Project Structure
+
 
