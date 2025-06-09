@@ -1,4 +1,4 @@
-# Automation Exercise Website Testing
+# Automationexercise.com Project Testing
 
 This project contains automated UI tests for the [Automation Exercise](https://automationexercise.com) website, a demo site used for practicing automation testing skills.
 
